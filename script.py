@@ -23,7 +23,7 @@ driver = webdriver.Chrome(service=service, options=chrome_options)
 driver.execute_script("window.open('about:blank', '_blank');")
 driver.switch_to.window(driver.window_handles[-1])
 # Navigate to the post creation page
-driver.get("https://creator.xiaohongshu.com/login?source=official")
+driver.get("")
 
 # Explicit wait duration
 timeout_duration = 30  # Adjust as needed for slow-loading sites
